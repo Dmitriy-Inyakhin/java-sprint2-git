@@ -18,9 +18,10 @@ public class StepTracker {
         int monthNumber, dayNumber, numberOfSteps;
 
         while (true) { // обработка и ввод номера месяца
+            System.out.println("(Январь - 1, Февраль - 2, Март - 3, Апрель - 4, Май - 5, Июнь - 6,");
+            System.out.println("Июль - 7, Август - 8, Сентябрь - 9, Октябрь - 10, Ноябрь - 11, Декабрь - 12)");
             System.out.print("Введите номер месяца (от 1 до 12): ");
-            System.out.print("(Январь - 1, Февраль - 2, Март - 3, Апрель - 4, Май - 5, Июнь - 6,");
-            System.out.print("Июль - 7, Август - 8, Сентябрь - 9, Октябрь - 10, Ноябрь - 11, Декабрь - 12)");
+
             monthNumber = scanner.nextInt();
             if (monthNumber >= 1 && monthNumber <= 12) {
                 break;
